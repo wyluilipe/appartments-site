@@ -1,0 +1,135 @@
+html, body {
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: Arial;
+	background-color: snow;
+	min-width: 1200px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+#header-container {
+	width: 100%;
+	height: 300px;
+	background-image: url('img/header.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-text {
+	padding-top: 100px;
+	text-align: center;
+	margin: auto;
+	width: 460px;
+	font-size: 40px;
+	font-weight: 500;
+	color: white;
+}
+
+#menu {
+	height: 80px;
+	width: 100%;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.common {
+	text-decoration: none;
+	color: black;
+	margin-right: 30px;
+}
+
+.uncommon {
+	padding: 10px;
+	font-size: 16px;
+	font-family: Arial;
+}
+
+#appartments-description {
+	width: 100%;
+	height: 500px;
+}
+
+#object-photo {
+	width: 100%;
+	height: 500px;
+	margin-bottom: 60px;
+}
+
+#person {
+	padding-left: 100px;
+	float: left;
+	width: 320px;
+	height: 500px;
+	text-align: center;
+	font-size: 14px;
+}
+
+	#person img {
+		height: 360px;
+	}
+
+#description {
+	float: left;
+	padding-left: 60px;
+	width: 500px;
+	font-size: 14px;
+}
+
+#price {
+	padding-left: 60px;
+	float: left;
+	width: 230px;
+}
+
+	#price h2 {
+		margin-bottom: 0;
+	}
+
+	#price p {
+		margin-top: 5px;
+		margin-bottom: 20px;
+		font-size: 12px;
+		color: grey;
+	}
+
+	#price button {
+		border: none;
+		background-color: #4169E9;
+		color: white;
+		padding: 15px 40px;
+	}
+
+#complex-about {
+	width: 100%;
+	height: 600px;
+}
+
+	#complex-about h1 {
+		padding-top: 0;
+	}
+
+.complex-photo {
+	width: 100%;
+}
+
+.points {
+	font-weight: 700;
+	padding-top: 20px;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	position: relative;
+}
+
+.point {
+	margin-right: 30px;
+}
